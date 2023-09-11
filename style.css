@@ -1,0 +1,155 @@
+
+header {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/62f10baecef09f68a7cb0749/46018953-0117-4d5d-87b6-01f7c311c74b/unnamed.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.welcome {
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+
+nav li {
+    display: inline-flex;
+    flex-wrap: wrap;;
+}
+
+
+
+.login {
+    margin-left: 100px;
+}
+
+.nav {
+    text-align: right;
+    color: azure;
+    margin: 0 auto;
+}
+
+a:link {
+    display: inline;
+    text-decoration: none;
+    color: azure;
+    padding: 6px;
+    font-size: 1em;
+}
+
+.button {
+    text-align: left;
+    padding-right: 600px;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #FDF5DC;
+}
+
+main {
+    /* outline: 1px solid red; */
+    width: 70vw;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 4em;
+}
+
+h4 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+.updates {
+    padding: 25px;
+}
+
+input {
+    padding: 25px 45px 25px 20px;
+    color: lightgrey;
+}
+
+.sign-up {
+    border: 2px solid white;
+    background-color: black;
+    padding: 25px 30px;
+}
+
+button {
+    outline: 2px solid black;
+    background-color: #FDF5DC;
+    border: 5px;
+    padding: 20px 50px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.main-content-card {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-content, .card-image {
+    width: 50%;
+    padding: 20px;
+}
+
+.newsletter {
+    /* outline: 1px solid black; */
+    text-align: center;
+}
+
+footer {
+    background-color: #39362D;
+    width: 100%;
+    height: 40%;
+    display: inline-flex;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* text-align: center; */
+    color: white;
+}
+
+.phone, .address, .email {
+    padding: 200px ;
+}
+
+@media (max-width: 600px) {
+
+    .main-content-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        text-align: center;
+    }
+
+    .card-content,
+    .card-image {
+        width: 100%;
+        padding: 0;
+    }
+}
